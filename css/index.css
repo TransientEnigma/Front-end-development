@@ -105,9 +105,11 @@ body {
   box-sizing: border-box;
   margin: 0.2em 1em;
 }
+
 #dmuImage img {
-    max-height: 2em;
+  max-height: 2em;
 }
+
 #searchSection, #bookSearchSection {
   background-color: var(--bgDarkerColour);
 }
@@ -157,14 +159,14 @@ h3 {
 
 section h4 {
   display: flex;
-
   box-sizing: border-box;
   color: var(--txtColour);
   padding: 0;
   margin: 0;
 }
+
 #profileBackground h4 {
-    justify-content: center;
+  justify-content: center;
 }
 
 .hideTogglerControl {
@@ -222,13 +224,14 @@ section {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 #homepage, #educationPage, #projectsPage, #shopPage, #bookDisplay {
-    background-image: url("../images/backgroundpattern.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 1em auto;
-    padding: 1em;
-    max-width:100em;
+  background-image: url("../images/backgroundpattern.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 100em;
 }
 
 .profile img {
@@ -264,20 +267,21 @@ article h4 {
   margin: 0.1em;
   border: 1px solid rgba(0, 0, 0, 0.1);
   min-width: 80vw;
-  margin:auto;
+  margin: auto;
 }
 
 .skillLevel img {
-    width: 1.7em;
-    min-height: 2em;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 0.3em;
+  width: 1.7em;
+  min-height: 2em;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.3em;
 }
+
 .skillType {
-    width: 8em;
-    display: flex;
-    justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.3); */
+  width: 8em;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .skillType p {
@@ -349,6 +353,7 @@ p {
   text-align: justify;
   margin: auto;
 }
+
 .preUniversityContent {
   margin-bottom: 1em;
 }
@@ -364,23 +369,23 @@ p {
 }
 
 .projectTitle {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0.5em;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-bottom: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
 }
 
 .projectTitle p {
   font-size: 0.8em;
   margin: 0;
-  color:gainsboro;
+  color: gainsboro;
 }
 
 .projectTitle h4 {
-  margin:0;
+  margin: 0;
 }
 
 .projectSummary {
@@ -388,13 +393,13 @@ p {
 }
 
 .projectSummary .imageBox {
-    border: 2px solid rgba(26, 0, 51, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color:white;
-    filter: brightness(0.8);
-    margin: 1em auto 1em auto;
+  border: 2px solid rgba(26, 0, 51, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  filter: brightness(0.8);
+  margin: 1em auto 1em auto;
 }
 
 .projectSummary img {
@@ -408,8 +413,6 @@ p {
   padding: 0.5em;
   /* background-color: rgba(0, 0, 0, 0.2); */
 }
-
-
 
 .academicHeader p {
   font-size: 0.5em;
@@ -431,7 +434,6 @@ p {
   margin-top: 1em;
   justify-content: center;
   padding: 1em;
-
 }
 
 .academicList ul {
@@ -519,8 +521,6 @@ footer {
   display: flex;
 }
 
-
-
 #slideNavigator {
   opacity: 1;
   display: flex;
@@ -551,7 +551,7 @@ small, #currentSlideIndicator {
   font-weight: bold;
 }
 
-small{
+small {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -564,11 +564,11 @@ small{
 .shopfront, .returnsPoint {
   min-height: 30em;
   border: 1px solid black;
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 #shopPage h1 {
-  margin-top:1em;
+  margin-top: 1em;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -650,7 +650,7 @@ small{
   max-width: 5em;
   max-height: 5em;
   transform: rotate(90deg);
-  margin:1em auto ;
+  margin: 1em auto;
 }
 
 .cartText {
@@ -712,7 +712,7 @@ small{
 }
 
 #bookDisplay article {
-  border: 5px solid rgba(0,0,0,0.4) ;
+  border: 5px solid rgba(0, 0, 0, 0.4);
   min-width: 200px;
   display: grid;
   grid-template-rows: 160px;
@@ -770,7 +770,6 @@ small{
 
 /* ************************** EDUCATION ********************************* */
 #educationPage h2 {
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -796,16 +795,15 @@ small{
 }
 
 /* ************************** MEDIA SCREENS ********************************* */
-  #projectSlides {
-    max-height: 50vh;
-    box-sizing: border-box;
-  }
+#projectSlides {
+  max-height: 50vh;
+  box-sizing: border-box;
+}
 
-  #projectSlides section.currentSlide img {
-    max-width: 100%;
-    filter: brightness(0.8);
-
-  }
+#projectSlides section.currentSlide img {
+  max-width: 100%;
+  filter: brightness(0.8);
+}
 }
 
 @media screen and (min-width: 425px) {
@@ -819,22 +817,27 @@ small{
   #contrastSlider {
     margin-top: 4.4em;
   }
+
   #brightnessSlider {
     margin-top: 4.4em;
   }
+
   .searchContainer {
     margin-right: 1em;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
   }
+
   .navContainer {
     box-shadow: 0 0 0.1em rgb(100 100 100);
     background-color: var(--bgDarkerColour);
   }
+
   .colourControlBar {
     box-shadow: none;
   }
+
   .controlsBar {
     display: flex;
     flex-direction: row;
@@ -842,14 +845,17 @@ small{
     box-shadow: 0 0 0.1em rgb(100 100 100);
     background-color: var(--bgDarkerColour);
   }
+
   .shiftLeft {
     margin-right: 20vw;
     margin-left: auto;
   }
+
   .shiftRight {
     margin-left: 20vw;
     margin-right: auto;
   }
+
   .hideTogglerControl {
     display: flex;
   }
@@ -873,48 +879,51 @@ small{
   .menuTogglerControl {
     display: none;
   }
-
-
 }
-
 
 @media screen and (min-width: 525px) {
   #projectSlides {
     max-height: 70vh;
     box-sizing: border-box;
   }
-
-
 }
+
 @media screen and (min-width: 612px) {
-  nav{
-      max-width: 39em;
-      margin-left: auto;
-      margin-right: auto;
+  nav {
+    max-width: 39em;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .projectsArea {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
-  .skillLevel{
+
+  .skillLevel {
     min-width: 0em;
-    width:31em;
+    width: 31em;
   }
+
   .projectTitle {
     width: 35em;
     height: 15em;
   }
+
   .projectSummary .imageBox {
     width: 35em;
   }
+
   .projectSummary img {
     width: 33em;
     max-height: none;
   }
+
   .projectSummary {
     margin: 1em auto;
   }
+
   #shopPage article {
     display: flex;
     flex-direction: row;
@@ -929,6 +938,7 @@ small{
     margin-right: 1em;
     margin-left: 1em;
   }
+
   #shopPage img {
     transform: rotate(0deg);
     margin: auto 1em;
@@ -938,8 +948,6 @@ small{
     max-height: 75vh;
     box-sizing: border-box;
   }
-
-
 }
 
 @media screen and (min-width: 800px) {
@@ -948,14 +956,13 @@ small{
     box-sizing: border-box;
     justify-content: space-around;
   }
-
-
 }
 
 @media screen and (min-width: 1000px) {
   #projectSlides section.currentSlide img {
     width: 46em;
-}
+  }
+
   .shiftLeft, .shiftRight {
     margin: 0;
   }
@@ -987,7 +994,6 @@ small{
     justify-content: space-around;
   }
 
-
   #shopPage {
     display: flex;
     flex-direction: column;
@@ -1010,39 +1016,40 @@ small{
     max-width: none;
     width: 70em;
   }
-  .skillsArea{
+
+  .skillsArea {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   .skillsAreaDivision {
-    margin:0 3em;
+    margin: 0 3em;
   }
-  .projectsArea{
+
+  .projectsArea {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   .projectsAreaDivision {
-    margin:0 1em;
+    margin: 0 1em;
   }
 }
 
-
 @media screen and (min-width: 1300px) {
   .academicSummary {
-    width:80em;
-    margin:auto;
+    width: 80em;
+    margin: auto;
   }
+
   .preUniversityContent {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 }
-
-
-
 
 @media screen and (min-width: 2214px) {
   #projectSlides section {
