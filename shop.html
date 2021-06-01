@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="introduction" content="Janzeb Masiano is an aspiring 3rd year student at
+    De Montfort University with a range of IT skills including:PHP, SQL, C#, JavaScript,
+    ASP.NET, HTML, CSS. These skills have enabled him to develop complete 3-tier systems
+    and has worked on a number of group projects such as the InigmaIT (an Employment Agency),
+    QualLibrary System, and the DJG Telemtry based PHP Slim App.
+    He has also work on a number of individual projects, including a JavaScript Game,
+    GP Practice and a Laptop Shop.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J. Masiano</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+      <h1>Janzeb Masiano</h1>
+      <div id="menuTogglerControl" class="menuTogglerControl">&#8801;</div>
+    </div>
+    <div class="controlsBar">
+      <div class="colourControlBar">
+        <!-- image from https://www.cleanpng.com/png-computer-icons-contrast-symbol-circle-encapsulated-4552389/download-png.html -->
+        <div id="contrastImage">
+          <img src="images/contrasticon.png" alt="icon for contrast control">
+        </div>
+        <!-- image from  https://www.pngitem.com/download/iixwoxJ_bright-brightness-color-ink-print-function-icon-brightness/ -->
+        <div id="brightnessImage">
+          <img src="images/brightnessicon.png" alt="icon for the brightness control">
+        </div>
+        <!-- image from https://git-scm.com/downloads/logos -->
+        <div id="githubImage">
+          <a href="https://github.com/TransientEnigma?tab=repositories">
+            <img src="images/giticon.png" alt="github icon">
+          </a>
+        </div>
+        <!-- image from https://www.vhv.rs/download/hoRTbhi_email-marketing-email-icon-vector-hd-png-download/ -->
+        <div id="mailImage"><a href="mailto:p2430705@my365.dmu.ac.uk">
+            <img src="images/maillogo.png" alt="github icon">
+          </a>
+        </div>
+      </div>
+      <div class="searchContainer">
+        <section id="searchSection" class="colourControlBar">
+          <div class="searchBox">
+            <input type="search" id="searchBox" aria-label="search box" placeholder="&#128269; search">
+            <button id="searchButton" aria-label="search button" name="searchButton">Search</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <input class="hideContrastControl" id="contrastSlider" type="range" min="10" max="320" aria-label="contrast control slider">
+    <input class="hideBrightnessControl" id="brightnessSlider" type="range" min="10" max="100" aria-label="brightnesss control slider">
+    </header>
+
+
+  <article>
+    <section class="profile">
+      <div id="profileBackground">
+        <h4>Software Developer</h4>
+        <img src="images/me.jpg" alt="Profile picture of Janzeb Masiano">
+        <h4>Cross-functional, Creative, Lateral Thinker</h4>
+      </div>
+    </section>
+  </article>
+  <div class="navContainer">
+    <nav id="menu" class="hideTogglerControl">
+      <a href="index.html">Homepage</a>
+      <a href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="shop.html">Shop</a>
+      <a href="books.html">Books</a>
+    </nav>
+  </div>
+  <main id="shopPage">
+    <h1>Software Shop</h1>
+    <article>
+      <section class="shopfront" data-search="software shop javascript telemerty employment database">
+        <h2>Products on Offer</h2>
+        <ul id="softwareOffered">
+          <li>
+            <label for="softwareGame">Javascript Game</label>
+            <input type="checkbox" id="softwareGame" aria-label="Javascript Game">
+          </li>
+          <li>
+            <label for="softwareTelemerty">Telemerty App</label>
+            <input type="checkbox" id="softwareTelemerty" aria-label="Telemerty App">
+          </li>
+          <li>
+            <label for="softwareEmployment">Employment Agency</label>
+            <input type="checkbox" id="softwareEmployment" aria-label="Employment Agency">
+          </li>
+          <li>
+            <label for="softwareDatabase">Superhero Database</label>
+            <input type="checkbox" id="softwareDatabase" aria-label="Superhero Database">
+          </li>
+        </ul>
+        <button type="button" id="addToCartButton">Add to Cart</button>
+        <section class="cartText">
+          <section class="cartTotalIndicator">
+            <h3>Click and Select</h3>
+          </section>
+        </section>
+      </section>
+      <!-- source: https://www.clipartmax.com/download/m2K9A0b1i8i8i8d3_red-arrow-curve-clip-art-curved-red-arrow-png/ -->
+                <img src="images/doublearrow.png" alt="double arrows">
+      <section class="returnsPoint">
+        <h2>Shopping Cart</h2>
+        <ul id="softwareCart"></ul>
+        <button type="button" id="clearButton">Clear Cart</button>
+        <section class="cartText">
+          <section class="cartTotalIndicator">
+            <h3>Total (£) :</h3>
+            <span id="cartTotalAmount">0</span>
+          </section>
+        </section>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <small>&copy; Janzeb Masiano | De Montfort University</small>
+    <!-- image frome https://www.pngegg.com/en/png-mokis -->
+    <div id="dmuImage">
+      <img src="images/dmulogo.png" alt="dmu logo">
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+
+</html>
